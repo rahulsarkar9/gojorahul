@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Bruno;
+  src: url(../font/BrunoAceSC-Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+    /* background-color: bisque; */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+  /* overflow: hidden; */
+
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .left {
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow ; */
+    border-right: 2px solid  red;
+    
+    
+  }
+  .head-text {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid red;
+    
+  }
+  
+  h1 {    
+    line-height: 1;
+    font-family: anurati;
+    display: flex;
+    justify-content: center;
+    font-family: Bruno;
+    font-size: 1.5vw;
+  }
+  
+  h3 {
+    /* padding: 20px; */
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border-right: 2px solid #da392b;
+    border-left: 2px solid #da392b;
+  }
+  
+  
+h3:hover {
+  /* color: #48E5C2; */
+  text-shadow: #da392b;
+  border-left: 5px solid #48E5C2;
+  border-right: 4px solid #48E5C2;
+  
+}
+
+  .right {
+    padding: 20px;
+
+    width: 80%;
+    height: 100%;
+    /* background-color: brown; */
+
+  }
+
+  .pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: red; */
+    display: flex;
+    margin: 0  auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .pic img { 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+    
+
+  }
+
+  .shead{
+    width: 50%;
+   
+  }
+
+  /*!---------------------------------- TRAINER CSS ----------------------------- */
+
+  span{
+    font-size: 15px;
+  }
+
+  .trainercourselist {
+    /* padding: ; */
+    /* background-color: red; */
+    /* margin: 10px; */
+    padding: 10px;
+  }
+  
+  .trainercourselist h4 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 2px solid #da392b;
+    border-right: 2px solid #da392b;
+    border-radius: 10px;
+
+  }
+
+ 
+  
+  
+h4:hover {
+  /* color: #48E5C2; */
+  border-left: 5px solid #48E5C2;
+  border-right: 4px solid #48E5C2;
+  
+}

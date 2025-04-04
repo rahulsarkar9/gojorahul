@@ -1,0 +1,73 @@
+
+  table {
+    /* font-family: arial, sans-serif; */
+    font-family: Gilroy;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    /* background-color: #dddddd; */
+    background-color: #99d1bd6d;
+    /* background-color: #48E5C2; */
+  }
+  /* tr:nth-child(odd) {
+  background-color: #99D1BC;
+  background-color: #e5a97d;
+  } */
+  
+  table tr th {
+    background-color: #e5a97d !important;
+    color: #000;
+    font-weight: bold;
+    font-family: Gilroy;
+    font-size: 17px;
+    height: 30px;
+    /* border-radius: 20px; */
+    text-align: center;
+  }
+  
+  /* <!-- HTML !--> */
+  /* <button class="button-24" role="button">Button 24</button> */
+  
+  /* CSS */
+  .btn {
+    background: #ff4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Gilroy;
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  
+  .onebtn {
+    background: #91cbb3;
+    border: 1px solid #91cbb3;
+    /* color: #fff; */
+  }
+  
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #ff4742;
+  }
+  
+  .button-24:active {
+    opacity: 0.5;
+  }
+  

@@ -1,0 +1,95 @@
+::-webkit-scrollbar {
+  background-color: red;
+  width: 0;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  /* background-image: url(https://images.unsplash.com/photo-1646444254678-b937f153b221?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  background-image: url(https://static.wixstatic.com/media/c837a6_cff34240addf4fa4991328bd1d51dde0~mv2.jpg/v1/fill/w_1899,h_919,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_cff34240addf4fa4991328bd1d51dde0~mv2.jpg);
+
+  background-size: cover;
+  background-position: center;
+}
+/* body {
+    font-family: Gilroy;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.form-container {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.form-container h2 {
+  text-align: center;
+  /* color: #4caf50; */
+  color: #da392b;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: Gilroy;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.form-group .date-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group .date-select select {
+  width: 48%;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  /* background-color: #4caf50; */
+  background-color: #da392b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
